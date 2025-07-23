@@ -1,0 +1,813 @@
+/home/yuj1135/.conda/envs/elephant/lib/python3.12/site-packages/scipy/optimize/_differentialevolution.py:486: UserWarning: differential_evolution: the 'workers' keyword has overridden updating='immediate' to updating='deferred'
+  with DifferentialEvolutionSolver(func, bounds, args=args,
+differential_evolution step 1: f(x)= 7.755088978644511
+Iteration 1: Training Error = 7.036479390635135, Evaluation Error = 7.2624443956875835
+differential_evolution step 2: f(x)= 7.113804864189348
+Iteration 2: Training Error = 6.5109795139119555, Evaluation Error = 6.725117396773129
+differential_evolution step 3: f(x)= 7.113804864189348
+Iteration 3: Training Error = 6.921598992478632, Evaluation Error = 7.132728759770156
+differential_evolution step 4: f(x)= 7.113804864189348
+Iteration 4: Training Error = 7.31966639127223, Evaluation Error = 6.858489569684805
+differential_evolution step 5: f(x)= 7.113804864189348
+Iteration 5: Training Error = 6.626599936561309, Evaluation Error = 7.6270258259858466
+differential_evolution step 6: f(x)= 7.113804864189348
+Iteration 6: Training Error = 6.659749400928, Evaluation Error = 6.705635834789877
+differential_evolution step 7: f(x)= 7.113804864189348
+Iteration 7: Training Error = 6.971963240822196, Evaluation Error = 6.678319090257833
+differential_evolution step 8: f(x)= 7.113804864189348
+Iteration 8: Training Error = 7.089467223484563, Evaluation Error = 7.29774615263826
+differential_evolution step 9: f(x)= 7.113804864189348
+Iteration 9: Training Error = 6.657670214830718, Evaluation Error = 7.298451642434394
+differential_evolution step 10: f(x)= 7.113804864189348
+Iteration 10: Training Error = 6.860318355443443, Evaluation Error = 7.397027031660608
+differential_evolution step 11: f(x)= 6.6681417247791135
+Iteration 11: Training Error = 6.657666505231258, Evaluation Error = 6.771040585439321
+differential_evolution step 12: f(x)= 6.6681417247791135
+Iteration 12: Training Error = 6.695611847549547, Evaluation Error = 6.588809183740615
+differential_evolution step 13: f(x)= 6.6681417247791135
+Iteration 13: Training Error = 6.557210163430462, Evaluation Error = 6.563868039334145
+differential_evolution step 14: f(x)= 6.6681417247791135
+Iteration 14: Training Error = 6.519699431385607, Evaluation Error = 6.572986818386768
+differential_evolution step 15: f(x)= 6.6681417247791135
+Iteration 15: Training Error = 6.4339225727008, Evaluation Error = 6.5440671323136375
+differential_evolution step 16: f(x)= 6.6681417247791135
+Iteration 16: Training Error = 6.581311742931753, Evaluation Error = 6.514039128009648
+differential_evolution step 17: f(x)= 6.6681417247791135
+Iteration 17: Training Error = 6.316529091756046, Evaluation Error = 6.3719007174541495
+differential_evolution step 18: f(x)= 6.6681417247791135
+Iteration 18: Training Error = 6.693622526913124, Evaluation Error = 6.654654921039652
+differential_evolution step 19: f(x)= 6.6681417247791135
+Iteration 19: Training Error = 6.629396828962118, Evaluation Error = 6.769596665646588
+differential_evolution step 20: f(x)= 6.6681417247791135
+Iteration 20: Training Error = 6.408108018600979, Evaluation Error = 6.510190069778592
+differential_evolution step 21: f(x)= 5.550719902360322
+Iteration 21: Training Error = 5.602934811937024, Evaluation Error = 5.443488255970232
+differential_evolution step 22: f(x)= 5.550719902360322
+Iteration 22: Training Error = 5.593834433478028, Evaluation Error = 5.594025615231711
+differential_evolution step 23: f(x)= 5.550719902360322
+Iteration 23: Training Error = 5.3844508851222095, Evaluation Error = 5.418127690615123
+differential_evolution step 24: f(x)= 5.550719902360322
+Iteration 24: Training Error = 5.612118316930404, Evaluation Error = 5.473999381789326
+differential_evolution step 25: f(x)= 5.550719902360322
+Iteration 25: Training Error = 5.621535179697712, Evaluation Error = 5.668302367994103
+differential_evolution step 26: f(x)= 5.550719902360322
+Iteration 26: Training Error = 5.383069374778199, Evaluation Error = 5.468403937176159
+differential_evolution step 27: f(x)= 5.550719902360322
+Iteration 27: Training Error = 5.627233008270728, Evaluation Error = 5.438626594301244
+differential_evolution step 28: f(x)= 5.550719902360322
+Iteration 28: Training Error = 5.501340195001392, Evaluation Error = 5.526486557880643
+differential_evolution step 29: f(x)= 5.550719902360322
+Iteration 29: Training Error = 5.3309916584877755, Evaluation Error = 5.523885150111541
+differential_evolution step 30: f(x)= 5.550719902360322
+Iteration 30: Training Error = 5.633311079501213, Evaluation Error = 5.433483837129032
+differential_evolution step 31: f(x)= 5.550719902360322
+Iteration 31: Training Error = 5.48696248993014, Evaluation Error = 5.6326667297764885
+differential_evolution step 32: f(x)= 5.550719902360322
+Iteration 32: Training Error = 5.701064527484745, Evaluation Error = 5.638823979734378
+differential_evolution step 33: f(x)= 5.550719902360322
+Iteration 33: Training Error = 5.550451633394877, Evaluation Error = 5.622856000936661
+differential_evolution step 34: f(x)= 5.550719902360322
+Iteration 34: Training Error = 5.451265672518391, Evaluation Error = 5.445474851478361
+differential_evolution step 35: f(x)= 5.550719902360322
+Iteration 35: Training Error = 5.637156830858013, Evaluation Error = 5.450650610058533
+differential_evolution step 36: f(x)= 5.550719902360322
+Iteration 36: Training Error = 5.6002136235075035, Evaluation Error = 5.4951857475446015
+differential_evolution step 37: f(x)= 5.550719902360322
+Iteration 37: Training Error = 5.518212987501075, Evaluation Error = 5.371004041287022
+differential_evolution step 38: f(x)= 5.550719902360322
+Iteration 38: Training Error = 5.37904910913073, Evaluation Error = 5.572651327182091
+differential_evolution step 39: f(x)= 5.550719902360322
+Iteration 39: Training Error = 5.61795586116101, Evaluation Error = 5.44158861997599
+differential_evolution step 40: f(x)= 5.550719902360322
+Iteration 40: Training Error = 5.591975184239786, Evaluation Error = 5.493598287880497
+differential_evolution step 41: f(x)= 5.550719902360322
+Iteration 41: Training Error = 5.500523217808805, Evaluation Error = 5.606064149912258
+differential_evolution step 42: f(x)= 5.550719902360322
+Iteration 42: Training Error = 5.671402845370082, Evaluation Error = 5.565989098406492
+differential_evolution step 43: f(x)= 5.550719902360322
+Iteration 43: Training Error = 5.490995071130443, Evaluation Error = 5.377083883266303
+differential_evolution step 44: f(x)= 5.550719902360322
+Iteration 44: Training Error = 5.7618887418434355, Evaluation Error = 5.46239278981057
+differential_evolution step 45: f(x)= 5.550719902360322
+Iteration 45: Training Error = 5.503255626580403, Evaluation Error = 5.612102174626708
+differential_evolution step 46: f(x)= 5.550719902360322
+Iteration 46: Training Error = 5.831333802281456, Evaluation Error = 5.349451129532555
+differential_evolution step 47: f(x)= 5.550719902360322
+Iteration 47: Training Error = 5.579774796206142, Evaluation Error = 5.4704247360699725
+differential_evolution step 48: f(x)= 5.550719902360322
+Iteration 48: Training Error = 5.757991655521305, Evaluation Error = 5.5217790989588895
+differential_evolution step 49: f(x)= 5.550719902360322
+Iteration 49: Training Error = 5.376993679603208, Evaluation Error = 5.46480398224257
+differential_evolution step 50: f(x)= 5.550719902360322
+Iteration 50: Training Error = 5.415784133008699, Evaluation Error = 5.568595191229428
+differential_evolution step 51: f(x)= 5.550719902360322
+Iteration 51: Training Error = 5.4923393892903425, Evaluation Error = 5.608980675667635
+differential_evolution step 52: f(x)= 5.550719902360322
+Iteration 52: Training Error = 5.5510988939389225, Evaluation Error = 5.588212124254053
+differential_evolution step 53: f(x)= 5.550719902360322
+Iteration 53: Training Error = 5.60599353080754, Evaluation Error = 5.6160767051022225
+differential_evolution step 54: f(x)= 5.550719902360322
+Iteration 54: Training Error = 5.396061464871556, Evaluation Error = 5.593497724100795
+differential_evolution step 55: f(x)= 5.550719902360322
+Iteration 55: Training Error = 5.612691238226431, Evaluation Error = 5.644566462881933
+differential_evolution step 56: f(x)= 5.550719902360322
+Iteration 56: Training Error = 5.615197998415832, Evaluation Error = 5.577154353305755
+differential_evolution step 57: f(x)= 5.550719902360322
+Iteration 57: Training Error = 5.478186016554965, Evaluation Error = 5.533872270257582
+differential_evolution step 58: f(x)= 5.550719902360322
+Iteration 58: Training Error = 5.647487084841881, Evaluation Error = 5.794637717309038
+differential_evolution step 59: f(x)= 5.550719902360322
+Iteration 59: Training Error = 5.640257905245273, Evaluation Error = 5.4867859846804095
+differential_evolution step 60: f(x)= 5.550719902360322
+Iteration 60: Training Error = 5.439248162959028, Evaluation Error = 5.451046210908816
+differential_evolution step 61: f(x)= 5.550719902360322
+Iteration 61: Training Error = 5.6566314321531035, Evaluation Error = 5.546211280735135
+differential_evolution step 62: f(x)= 5.550719902360322
+Iteration 62: Training Error = 5.485157513049787, Evaluation Error = 5.635137220039581
+differential_evolution step 63: f(x)= 5.200499767779873
+Iteration 63: Training Error = 5.65476067421077, Evaluation Error = 10000000000.0
+differential_evolution step 64: f(x)= 5.200499767779873
+Iteration 64: Training Error = 10000000000.0, Evaluation Error = 5.272553625560348
+differential_evolution step 65: f(x)= 5.200499767779873
+Iteration 65: Training Error = 10000000000.0, Evaluation Error = 10000000000.0
+differential_evolution step 66: f(x)= 5.200499767779873
+Iteration 66: Training Error = 10000000000.0, Evaluation Error = 5.27711248696464
+differential_evolution step 67: f(x)= 5.200499767779873
+Iteration 67: Training Error = 10000000000.0, Evaluation Error = 5.542605263126648
+differential_evolution step 68: f(x)= 5.200499767779873
+Iteration 68: Training Error = 5.33779493063218, Evaluation Error = 10000000000.0
+differential_evolution step 69: f(x)= 5.200499767779873
+Iteration 69: Training Error = 10000000000.0, Evaluation Error = 5.53145324422952
+differential_evolution step 70: f(x)= 5.200499767779873
+Iteration 70: Training Error = 5.200194330650296, Evaluation Error = 5.281615013245406
+differential_evolution step 71: f(x)= 5.200499767779873
+Iteration 71: Training Error = 5.410629998099052, Evaluation Error = 10000000000.0
+differential_evolution step 72: f(x)= 5.200499767779873
+Iteration 72: Training Error = 10000000000.0, Evaluation Error = 10000000000.0
+differential_evolution step 73: f(x)= 5.200499767779873
+Iteration 73: Training Error = 10000000000.0, Evaluation Error = 5.225584910986177
+differential_evolution step 74: f(x)= 5.200499767779873
+Iteration 74: Training Error = 5.539026207898616, Evaluation Error = 5.414315419314873
+differential_evolution step 75: f(x)= 5.200499767779873
+Iteration 75: Training Error = 5.45089719354238, Evaluation Error = 5.306110257215912
+differential_evolution step 76: f(x)= 5.200499767779873
+Iteration 76: Training Error = 5.711047380944933, Evaluation Error = 5.408687196648154
+differential_evolution step 77: f(x)= 5.200499767779873
+Iteration 77: Training Error = 5.45352186365578, Evaluation Error = 5.3620268288491575
+differential_evolution step 78: f(x)= 5.200499767779873
+Iteration 78: Training Error = 5.35872546298151, Evaluation Error = 10000000000.0
+differential_evolution step 79: f(x)= 5.200499767779873
+Iteration 79: Training Error = 5.448563475708335, Evaluation Error = 10000000000.0
+differential_evolution step 80: f(x)= 5.200499767779873
+Iteration 80: Training Error = 5.4060228349491455, Evaluation Error = 5.5093021357415495
+differential_evolution step 81: f(x)= 5.200499767779873
+Iteration 81: Training Error = 5.299473584288833, Evaluation Error = 10000000000.0
+differential_evolution step 82: f(x)= 4.925776726850275
+Iteration 82: Training Error = 5.205025509832307, Evaluation Error = 5.148146982614976
+differential_evolution step 83: f(x)= 4.925776726850275
+Iteration 83: Training Error = 5.236229022968334, Evaluation Error = 5.069271822548123
+differential_evolution step 84: f(x)= 4.925776726850275
+Iteration 84: Training Error = 5.45879967148479, Evaluation Error = 5.534982061353342
+differential_evolution step 85: f(x)= 4.925776726850275
+Iteration 85: Training Error = 5.24483256066579, Evaluation Error = 5.2144759075843545
+differential_evolution step 86: f(x)= 4.925776726850275
+Iteration 86: Training Error = 5.482099373931513, Evaluation Error = 5.414808563157679
+differential_evolution step 87: f(x)= 4.925776726850275
+Iteration 87: Training Error = 5.2253564429621875, Evaluation Error = 5.04380228010093
+differential_evolution step 88: f(x)= 4.925776726850275
+Iteration 88: Training Error = 5.37112270655684, Evaluation Error = 5.110208856139408
+differential_evolution step 89: f(x)= 4.925776726850275
+Iteration 89: Training Error = 5.286105328085714, Evaluation Error = 5.455483004695946
+differential_evolution step 90: f(x)= 4.925776726850275
+Iteration 90: Training Error = 5.222465000759685, Evaluation Error = 5.1414792422438085
+differential_evolution step 91: f(x)= 4.925776726850275
+Iteration 91: Training Error = 5.1269778346126, Evaluation Error = 5.265737971270216
+differential_evolution step 92: f(x)= 4.925776726850275
+Iteration 92: Training Error = 5.363442048940517, Evaluation Error = 5.015257138341141
+differential_evolution step 93: f(x)= 4.925776726850275
+Iteration 93: Training Error = 5.117304556909291, Evaluation Error = 5.301630341896239
+differential_evolution step 94: f(x)= 4.925776726850275
+Iteration 94: Training Error = 5.013605889857383, Evaluation Error = 5.463822875426919
+differential_evolution step 95: f(x)= 4.925776726850275
+Iteration 95: Training Error = 5.2837346598960435, Evaluation Error = 5.428654828120218
+differential_evolution step 96: f(x)= 4.925776726850275
+Iteration 96: Training Error = 5.17631200831506, Evaluation Error = 5.199473767895306
+differential_evolution step 97: f(x)= 4.925776726850275
+Iteration 97: Training Error = 5.234006861733387, Evaluation Error = 5.217800460353963
+differential_evolution step 98: f(x)= 4.925776726850275
+Iteration 98: Training Error = 5.14216283579667, Evaluation Error = 5.403630614860691
+differential_evolution step 99: f(x)= 4.925776726850275
+Iteration 99: Training Error = 5.026176331857618, Evaluation Error = 5.152598165773195
+differential_evolution step 100: f(x)= 4.925776726850275
+Iteration 100: Training Error = 5.317761374139479, Evaluation Error = 4.912067023299316
+differential_evolution step 101: f(x)= 4.925776726850275
+Iteration 101: Training Error = 5.257107450218625, Evaluation Error = 5.174259292780565
+differential_evolution step 102: f(x)= 4.925776726850275
+Iteration 102: Training Error = 5.31594374224399, Evaluation Error = 5.221103497484023
+differential_evolution step 103: f(x)= 4.925776726850275
+Iteration 103: Training Error = 5.310892032047235, Evaluation Error = 5.108858518046885
+differential_evolution step 104: f(x)= 4.925776726850275
+Iteration 104: Training Error = 5.032318550210425, Evaluation Error = 5.422238163314272
+differential_evolution step 105: f(x)= 4.925776726850275
+Iteration 105: Training Error = 5.083320458493064, Evaluation Error = 5.214751705235639
+differential_evolution step 106: f(x)= 4.925776726850275
+Iteration 106: Training Error = 5.37413317011724, Evaluation Error = 5.155989406380975
+differential_evolution step 107: f(x)= 4.925776726850275
+Iteration 107: Training Error = 5.394037898934796, Evaluation Error = 5.014542699991477
+differential_evolution step 108: f(x)= 4.925776726850275
+Iteration 108: Training Error = 5.267964164721413, Evaluation Error = 5.257851480914181
+differential_evolution step 109: f(x)= 4.925776726850275
+Iteration 109: Training Error = 5.08887860795137, Evaluation Error = 5.11949846375285
+differential_evolution step 110: f(x)= 4.925776726850275
+Iteration 110: Training Error = 4.950376886613758, Evaluation Error = 5.515789694971554
+differential_evolution step 111: f(x)= 4.925776726850275
+Iteration 111: Training Error = 5.144353541564394, Evaluation Error = 5.488137488250434
+differential_evolution step 112: f(x)= 4.925776726850275
+Iteration 112: Training Error = 5.415912754785726, Evaluation Error = 5.285751780343384
+differential_evolution step 113: f(x)= 4.925776726850275
+Iteration 113: Training Error = 5.2255933314680485, Evaluation Error = 5.065209988272897
+differential_evolution step 114: f(x)= 4.925776726850275
+Iteration 114: Training Error = 5.032790423830322, Evaluation Error = 5.395811069959014
+differential_evolution step 115: f(x)= 4.925776726850275
+Iteration 115: Training Error = 5.295864579683018, Evaluation Error = 5.3480264033139315
+differential_evolution step 116: f(x)= 4.925776726850275
+Iteration 116: Training Error = 5.274598150640294, Evaluation Error = 5.0118727541602714
+differential_evolution step 117: f(x)= 4.925776726850275
+Iteration 117: Training Error = 5.108646580909365, Evaluation Error = 5.409533824896257
+differential_evolution step 118: f(x)= 4.925776726850275
+Iteration 118: Training Error = 5.246504382824108, Evaluation Error = 5.422685027005437
+differential_evolution step 119: f(x)= 4.925776726850275
+Iteration 119: Training Error = 5.1447124156593205, Evaluation Error = 5.299593893174984
+differential_evolution step 120: f(x)= 4.925776726850275
+Iteration 120: Training Error = 5.262281341427075, Evaluation Error = 5.157261190733431
+differential_evolution step 121: f(x)= 4.925776726850275
+Iteration 121: Training Error = 5.199605878296348, Evaluation Error = 5.216287840790098
+differential_evolution step 122: f(x)= 4.925776726850275
+Iteration 122: Training Error = 5.393555287192129, Evaluation Error = 5.290028101544298
+differential_evolution step 123: f(x)= 4.925776726850275
+Iteration 123: Training Error = 4.9862545605455075, Evaluation Error = 5.148246631763235
+differential_evolution step 124: f(x)= 4.925776726850275
+Iteration 124: Training Error = 5.090932133539644, Evaluation Error = 5.407629848784416
+differential_evolution step 125: f(x)= 4.925776726850275
+Iteration 125: Training Error = 5.103776427771017, Evaluation Error = 5.2972249421366975
+differential_evolution step 126: f(x)= 4.925776726850275
+Iteration 126: Training Error = 5.2296828693689275, Evaluation Error = 5.148833912547671
+differential_evolution step 127: f(x)= 4.925776726850275
+Iteration 127: Training Error = 5.28783332139899, Evaluation Error = 5.327602449522302
+differential_evolution step 128: f(x)= 4.925776726850275
+Iteration 128: Training Error = 5.443107825572621, Evaluation Error = 5.283168139730629
+differential_evolution step 129: f(x)= 4.925776726850275
+Iteration 129: Training Error = 5.397824232062241, Evaluation Error = 5.288508204654624
+differential_evolution step 130: f(x)= 4.925776726850275
+Iteration 130: Training Error = 5.44294011164817, Evaluation Error = 5.21659887737111
+differential_evolution step 131: f(x)= 4.925776726850275
+Iteration 131: Training Error = 5.007567997449922, Evaluation Error = 5.1023330620294765
+differential_evolution step 132: f(x)= 4.925776726850275
+Iteration 132: Training Error = 5.263901980309617, Evaluation Error = 5.336020187072737
+differential_evolution step 133: f(x)= 4.925776726850275
+Iteration 133: Training Error = 5.36099568026884, Evaluation Error = 5.196522165350517
+differential_evolution step 134: f(x)= 4.925776726850275
+Iteration 134: Training Error = 5.368268021525066, Evaluation Error = 5.341061399438806
+differential_evolution step 135: f(x)= 4.925776726850275
+Iteration 135: Training Error = 5.576296262937554, Evaluation Error = 5.028171368867286
+differential_evolution step 136: f(x)= 4.925776726850275
+Iteration 136: Training Error = 5.356569561821306, Evaluation Error = 5.0303368643798
+differential_evolution step 137: f(x)= 4.925776726850275
+Iteration 137: Training Error = 5.2841275063014335, Evaluation Error = 5.228306296268439
+differential_evolution step 138: f(x)= 4.925776726850275
+Iteration 138: Training Error = 5.328115824914638, Evaluation Error = 5.167151924486603
+differential_evolution step 139: f(x)= 4.925776726850275
+Iteration 139: Training Error = 5.387485748513212, Evaluation Error = 5.273795074736595
+differential_evolution step 140: f(x)= 4.925776726850275
+Iteration 140: Training Error = 5.102532698654248, Evaluation Error = 5.084463032375609
+differential_evolution step 141: f(x)= 4.925776726850275
+Iteration 141: Training Error = 5.155658098061922, Evaluation Error = 5.29086547771352
+differential_evolution step 142: f(x)= 4.925776726850275
+Iteration 142: Training Error = 5.227926792118147, Evaluation Error = 5.468040512709666
+differential_evolution step 143: f(x)= 4.925776726850275
+Iteration 143: Training Error = 5.267465102300154, Evaluation Error = 5.084193870178981
+differential_evolution step 144: f(x)= 4.925776726850275
+Iteration 144: Training Error = 4.944290099936156, Evaluation Error = 5.259771415790658
+differential_evolution step 145: f(x)= 4.925776726850275
+Iteration 145: Training Error = 5.212121329021549, Evaluation Error = 5.044545183821684
+differential_evolution step 146: f(x)= 4.925776726850275
+Iteration 146: Training Error = 5.235477067356312, Evaluation Error = 5.214541068830959
+differential_evolution step 147: f(x)= 4.925776726850275
+Iteration 147: Training Error = 5.181411653525187, Evaluation Error = 5.19771259959869
+differential_evolution step 148: f(x)= 4.925776726850275
+Iteration 148: Training Error = 5.1530445136904355, Evaluation Error = 5.219418087772173
+differential_evolution step 149: f(x)= 4.925776726850275
+Iteration 149: Training Error = 5.393499884348615, Evaluation Error = 5.101904127787778
+differential_evolution step 150: f(x)= 4.746345572507511
+Iteration 150: Training Error = 4.933253125909199, Evaluation Error = 4.938079385327259
+differential_evolution step 151: f(x)= 4.746345572507511
+Iteration 151: Training Error = 4.891386734377662, Evaluation Error = 5.061560874908757
+differential_evolution step 152: f(x)= 4.746345572507511
+Iteration 152: Training Error = 4.811724385961465, Evaluation Error = 5.208408790522405
+differential_evolution step 153: f(x)= 4.746345572507511
+Iteration 153: Training Error = 5.121590981393041, Evaluation Error = 4.791140339396597
+differential_evolution step 154: f(x)= 4.746345572507511
+Iteration 154: Training Error = 4.800222111566182, Evaluation Error = 4.7162548017302495
+differential_evolution step 155: f(x)= 4.746345572507511
+Iteration 155: Training Error = 4.783998918578437, Evaluation Error = 4.824472146384824
+differential_evolution step 156: f(x)= 4.746345572507511
+Iteration 156: Training Error = 5.007240669296676, Evaluation Error = 4.966568272058506
+differential_evolution step 157: f(x)= 4.746345572507511
+Iteration 157: Training Error = 5.25417531186154, Evaluation Error = 5.089892504228674
+differential_evolution step 158: f(x)= 4.746345572507511
+Iteration 158: Training Error = 4.980859913775554, Evaluation Error = 5.10078178540743
+differential_evolution step 159: f(x)= 4.746345572507511
+Iteration 159: Training Error = 5.00293150987409, Evaluation Error = 4.772304020226921
+differential_evolution step 160: f(x)= 4.746345572507511
+Iteration 160: Training Error = 4.94728418425421, Evaluation Error = 4.579087517623891
+differential_evolution step 161: f(x)= 4.746345572507511
+Iteration 161: Training Error = 5.2455905494470105, Evaluation Error = 4.839275380160897
+differential_evolution step 162: f(x)= 4.746345572507511
+Iteration 162: Training Error = 5.126138416152546, Evaluation Error = 5.222815083593273
+differential_evolution step 163: f(x)= 4.746345572507511
+Iteration 163: Training Error = 5.468553175598725, Evaluation Error = 4.831879686619611
+differential_evolution step 164: f(x)= 4.746345572507511
+Iteration 164: Training Error = 4.717811254828037, Evaluation Error = 5.100603484917593
+differential_evolution step 165: f(x)= 4.692157250585
+Iteration 165: Training Error = 4.70949673666482, Evaluation Error = 4.763396306204981
+differential_evolution step 166: f(x)= 4.692157250585
+Iteration 166: Training Error = 5.031372367376402, Evaluation Error = 4.859600097689857
+differential_evolution step 167: f(x)= 4.692157250585
+Iteration 167: Training Error = 4.716087663696823, Evaluation Error = 4.634169668188177
+differential_evolution step 168: f(x)= 4.692157250585
+Iteration 168: Training Error = 4.811101327531248, Evaluation Error = 4.6994568111134845
+differential_evolution step 169: f(x)= 4.692157250585
+Iteration 169: Training Error = 4.8227251707381225, Evaluation Error = 4.761144854247634
+differential_evolution step 170: f(x)= 4.692157250585
+Iteration 170: Training Error = 5.019511612880283, Evaluation Error = 4.80042748916866
+differential_evolution step 171: f(x)= 4.692157250585
+Iteration 171: Training Error = 4.797747893891277, Evaluation Error = 4.933082445172442
+differential_evolution step 172: f(x)= 4.692157250585
+Iteration 172: Training Error = 4.840824476505805, Evaluation Error = 4.749620407920888
+differential_evolution step 173: f(x)= 4.692157250585
+Iteration 173: Training Error = 4.9291892614947335, Evaluation Error = 4.888532726519323
+differential_evolution step 174: f(x)= 4.692157250585
+Iteration 174: Training Error = 5.247294102363539, Evaluation Error = 4.76827731509297
+differential_evolution step 175: f(x)= 4.685293062220324
+Iteration 175: Training Error = 4.656499863827381, Evaluation Error = 4.861601678746659
+differential_evolution step 176: f(x)= 4.685293062220324
+Iteration 176: Training Error = 5.052819955097294, Evaluation Error = 4.813311560947008
+differential_evolution step 177: f(x)= 4.685293062220324
+Iteration 177: Training Error = 4.821955822840126, Evaluation Error = 4.771174769405435
+differential_evolution step 178: f(x)= 4.685293062220324
+Iteration 178: Training Error = 4.977184535824585, Evaluation Error = 4.876876553889967
+differential_evolution step 179: f(x)= 4.685293062220324
+Iteration 179: Training Error = 4.584316058353942, Evaluation Error = 4.49489525621783
+differential_evolution step 180: f(x)= 4.685293062220324
+Iteration 180: Training Error = 4.884422838726614, Evaluation Error = 4.830202435357993
+differential_evolution step 181: f(x)= 4.685293062220324
+Iteration 181: Training Error = 4.710372440122063, Evaluation Error = 4.90624227115838
+differential_evolution step 182: f(x)= 4.685293062220324
+Iteration 182: Training Error = 4.810314991695305, Evaluation Error = 4.908219847250892
+differential_evolution step 183: f(x)= 4.685293062220324
+Iteration 183: Training Error = 4.973496946271471, Evaluation Error = 4.75652353009057
+differential_evolution step 184: f(x)= 4.685293062220324
+Iteration 184: Training Error = 4.761700833232422, Evaluation Error = 4.776700997745615
+differential_evolution step 185: f(x)= 4.685293062220324
+Iteration 185: Training Error = 4.677355789568628, Evaluation Error = 4.799586372539686
+differential_evolution step 186: f(x)= 4.685293062220324
+Iteration 186: Training Error = 4.664907172130815, Evaluation Error = 4.620065632719253
+differential_evolution step 187: f(x)= 4.676868077959324
+Iteration 187: Training Error = 4.590366476656662, Evaluation Error = 4.613294132566393
+differential_evolution step 188: f(x)= 4.676868077959324
+Iteration 188: Training Error = 4.508541363317481, Evaluation Error = 4.604164481699472
+differential_evolution step 189: f(x)= 4.676868077959324
+Iteration 189: Training Error = 4.814951076658648, Evaluation Error = 4.780852531417873
+differential_evolution step 190: f(x)= 4.676868077959324
+Iteration 190: Training Error = 4.61466002874327, Evaluation Error = 4.563351461029395
+differential_evolution step 191: f(x)= 4.676868077959324
+Iteration 191: Training Error = 4.8768234654103075, Evaluation Error = 4.733927502487187
+differential_evolution step 192: f(x)= 4.676868077959324
+Iteration 192: Training Error = 4.53361656677083, Evaluation Error = 4.590701580702227
+differential_evolution step 193: f(x)= 4.676868077959324
+Iteration 193: Training Error = 4.5721589131045715, Evaluation Error = 4.576119030025001
+differential_evolution step 194: f(x)= 4.676868077959324
+Iteration 194: Training Error = 4.537031261214432, Evaluation Error = 4.526681173928736
+differential_evolution step 195: f(x)= 4.676868077959324
+Iteration 195: Training Error = 4.527101433880015, Evaluation Error = 4.661772639980283
+differential_evolution step 196: f(x)= 4.676868077959324
+Iteration 196: Training Error = 4.567874932345829, Evaluation Error = 4.492440778482672
+differential_evolution step 197: f(x)= 4.676868077959324
+Iteration 197: Training Error = 4.492412324278478, Evaluation Error = 4.670740556762489
+differential_evolution step 198: f(x)= 4.676868077959324
+Iteration 198: Training Error = 4.752105391542365, Evaluation Error = 4.745197713568077
+differential_evolution step 199: f(x)= 4.676868077959324
+Iteration 199: Training Error = 4.454241635508895, Evaluation Error = 4.600577876023311
+differential_evolution step 200: f(x)= 4.676868077959324
+Iteration 200: Training Error = 4.802268459264695, Evaluation Error = 4.68874683590405
+differential_evolution step 201: f(x)= 4.676868077959324
+Iteration 201: Training Error = 4.529978131884093, Evaluation Error = 4.698158724982456
+differential_evolution step 202: f(x)= 4.676868077959324
+Iteration 202: Training Error = 4.631769404028871, Evaluation Error = 4.557219300841593
+differential_evolution step 203: f(x)= 4.676868077959324
+Iteration 203: Training Error = 4.581915868361001, Evaluation Error = 4.570604558490201
+differential_evolution step 204: f(x)= 4.676868077959324
+Iteration 204: Training Error = 4.5643930724800175, Evaluation Error = 4.617407903081834
+differential_evolution step 205: f(x)= 4.676868077959324
+Iteration 205: Training Error = 4.579789663337346, Evaluation Error = 4.405533193196716
+differential_evolution step 206: f(x)= 4.676868077959324
+Iteration 206: Training Error = 4.728205009788654, Evaluation Error = 4.6807076350612675
+differential_evolution step 207: f(x)= 4.676868077959324
+Iteration 207: Training Error = 4.48040197292271, Evaluation Error = 4.615823261427377
+differential_evolution step 208: f(x)= 4.676868077959324
+Iteration 208: Training Error = 4.7032856860107195, Evaluation Error = 4.730591979925877
+differential_evolution step 209: f(x)= 4.676868077959324
+Iteration 209: Training Error = 4.6217570829077985, Evaluation Error = 4.54847346712347
+differential_evolution step 210: f(x)= 4.676868077959324
+Iteration 210: Training Error = 4.56512063765122, Evaluation Error = 4.735210628946454
+differential_evolution step 211: f(x)= 4.676868077959324
+Iteration 211: Training Error = 4.690837513606931, Evaluation Error = 4.611165242789108
+differential_evolution step 212: f(x)= 4.676868077959324
+Iteration 212: Training Error = 4.635319772541246, Evaluation Error = 4.759994221248125
+differential_evolution step 213: f(x)= 4.676868077959324
+Iteration 213: Training Error = 4.568033194486317, Evaluation Error = 4.663103504847708
+differential_evolution step 214: f(x)= 4.588853911489929
+Iteration 214: Training Error = 4.840343250340919, Evaluation Error = 5.113576751931451
+differential_evolution step 215: f(x)= 4.588853911489929
+Iteration 215: Training Error = 4.789960316706495, Evaluation Error = 4.762785691256192
+differential_evolution step 216: f(x)= 4.588853911489929
+Iteration 216: Training Error = 4.918501020770705, Evaluation Error = 5.044486863627103
+differential_evolution step 217: f(x)= 4.588853911489929
+Iteration 217: Training Error = 4.651155055254997, Evaluation Error = 4.873313582093667
+differential_evolution step 218: f(x)= 4.588853911489929
+Iteration 218: Training Error = 4.62326332799053, Evaluation Error = 4.679217599453675
+differential_evolution step 219: f(x)= 4.588853911489929
+Iteration 219: Training Error = 4.860988850878047, Evaluation Error = 4.817823277937377
+differential_evolution step 220: f(x)= 4.588853911489929
+Iteration 220: Training Error = 4.819897981747501, Evaluation Error = 4.9300744362276205
+differential_evolution step 221: f(x)= 4.588853911489929
+Iteration 221: Training Error = 4.68914933023489, Evaluation Error = 4.978067866211386
+differential_evolution step 222: f(x)= 4.588853911489929
+Iteration 222: Training Error = 4.788443334754525, Evaluation Error = 4.899870958004347
+differential_evolution step 223: f(x)= 4.588853911489929
+Iteration 223: Training Error = 4.801298833169624, Evaluation Error = 4.9578622150437255
+differential_evolution step 224: f(x)= 4.588853911489929
+Iteration 224: Training Error = 4.953121177691089, Evaluation Error = 4.79675695881276
+differential_evolution step 225: f(x)= 4.588853911489929
+Iteration 225: Training Error = 4.814782369444762, Evaluation Error = 4.6991722328078405
+differential_evolution step 226: f(x)= 4.588853911489929
+Iteration 226: Training Error = 5.026862883272117, Evaluation Error = 4.79963648772376
+differential_evolution step 227: f(x)= 4.588853911489929
+Iteration 227: Training Error = 4.82086482332887, Evaluation Error = 5.036383751958179
+differential_evolution step 228: f(x)= 4.588853911489929
+Iteration 228: Training Error = 4.886483399730852, Evaluation Error = 4.701068416793939
+differential_evolution step 229: f(x)= 4.588853911489929
+Iteration 229: Training Error = 4.8222012048625675, Evaluation Error = 4.841296457783111
+differential_evolution step 230: f(x)= 4.588853911489929
+Iteration 230: Training Error = 4.947021254407517, Evaluation Error = 4.526585211603527
+differential_evolution step 231: f(x)= 4.588853911489929
+Iteration 231: Training Error = 4.802167063468691, Evaluation Error = 4.635368838448695
+differential_evolution step 232: f(x)= 4.588853911489929
+Iteration 232: Training Error = 4.852745835877094, Evaluation Error = 4.914842951914621
+differential_evolution step 233: f(x)= 4.588853911489929
+Iteration 233: Training Error = 4.975297228678588, Evaluation Error = 4.709672770049659
+differential_evolution step 234: f(x)= 4.588853911489929
+Iteration 234: Training Error = 4.997962871139808, Evaluation Error = 4.805725857703125
+differential_evolution step 235: f(x)= 4.588853911489929
+Iteration 235: Training Error = 4.937469386588987, Evaluation Error = 4.8206323957184765
+differential_evolution step 236: f(x)= 4.588853911489929
+Iteration 236: Training Error = 4.947198411504189, Evaluation Error = 4.831759665093261
+differential_evolution step 237: f(x)= 4.588853911489929
+Iteration 237: Training Error = 4.709422928403599, Evaluation Error = 4.995414309078071
+differential_evolution step 238: f(x)= 4.588853911489929
+Iteration 238: Training Error = 4.392875655971958, Evaluation Error = 4.77293873359437
+differential_evolution step 239: f(x)= 4.588853911489929
+Iteration 239: Training Error = 4.789194702520138, Evaluation Error = 4.748716890560153
+differential_evolution step 240: f(x)= 4.588853911489929
+Iteration 240: Training Error = 5.105651166321123, Evaluation Error = 4.580124677285707
+differential_evolution step 241: f(x)= 4.588853911489929
+Iteration 241: Training Error = 4.661341410237084, Evaluation Error = 4.708544190088473
+differential_evolution step 242: f(x)= 4.588853911489929
+Iteration 242: Training Error = 5.029123363415513, Evaluation Error = 4.883583360184879
+differential_evolution step 243: f(x)= 4.561262969231492
+Iteration 243: Training Error = 4.655518193355771, Evaluation Error = 4.842546115563633
+differential_evolution step 244: f(x)= 4.561262969231492
+Iteration 244: Training Error = 4.701011561164703, Evaluation Error = 4.669882112971202
+differential_evolution step 245: f(x)= 4.561262969231492
+Iteration 245: Training Error = 4.771369023307047, Evaluation Error = 4.796937188102708
+differential_evolution step 246: f(x)= 4.561262969231492
+Iteration 246: Training Error = 4.932218713475796, Evaluation Error = 4.786017827368564
+differential_evolution step 247: f(x)= 4.561262969231492
+Iteration 247: Training Error = 4.778117243121626, Evaluation Error = 4.755507803698835
+differential_evolution step 248: f(x)= 4.561262969231492
+Iteration 248: Training Error = 4.7529703078999646, Evaluation Error = 4.682389556009789
+differential_evolution step 249: f(x)= 4.561262969231492
+Iteration 249: Training Error = 4.944929787092738, Evaluation Error = 4.645550741173965
+differential_evolution step 250: f(x)= 4.561262969231492
+Iteration 250: Training Error = 4.6977652130034615, Evaluation Error = 4.375302050717821
+differential_evolution step 251: f(x)= 4.561262969231492
+Iteration 251: Training Error = 4.979601706498218, Evaluation Error = 4.526373424709996
+differential_evolution step 252: f(x)= 4.561262969231492
+Iteration 252: Training Error = 4.497963173517856, Evaluation Error = 4.737992691579817
+differential_evolution step 253: f(x)= 4.561262969231492
+Iteration 253: Training Error = 4.690678731542493, Evaluation Error = 4.530398810070491
+differential_evolution step 254: f(x)= 4.561262969231492
+Iteration 254: Training Error = 4.850986256941326, Evaluation Error = 4.6468800015613745
+differential_evolution step 255: f(x)= 4.561262969231492
+Iteration 255: Training Error = 4.707440920684045, Evaluation Error = 4.9742018911058095
+differential_evolution step 256: f(x)= 4.561262969231492
+Iteration 256: Training Error = 4.691390222994926, Evaluation Error = 4.82300105800231
+differential_evolution step 257: f(x)= 4.561262969231492
+Iteration 257: Training Error = 4.76452132011052, Evaluation Error = 4.514552379133724
+differential_evolution step 258: f(x)= 4.561262969231492
+Iteration 258: Training Error = 5.051992764310129, Evaluation Error = 4.463068343786303
+differential_evolution step 259: f(x)= 4.561262969231492
+Iteration 259: Training Error = 4.719980907966172, Evaluation Error = 4.594522476975954
+differential_evolution step 260: f(x)= 4.561262969231492
+Iteration 260: Training Error = 4.700141427267473, Evaluation Error = 4.728069685341822
+differential_evolution step 261: f(x)= 4.561262969231492
+Iteration 261: Training Error = 4.680970893412945, Evaluation Error = 4.655214139387011
+differential_evolution step 262: f(x)= 4.561262969231492
+Iteration 262: Training Error = 4.593104480613043, Evaluation Error = 4.679680989010508
+differential_evolution step 263: f(x)= 4.561262969231492
+Iteration 263: Training Error = 4.688239092051306, Evaluation Error = 4.686487522869877
+differential_evolution step 264: f(x)= 4.561262969231492
+Iteration 264: Training Error = 4.890030974385366, Evaluation Error = 4.571989975767853
+differential_evolution step 265: f(x)= 4.561262969231492
+Iteration 265: Training Error = 4.750724324224526, Evaluation Error = 4.704311197911753
+differential_evolution step 266: f(x)= 4.561262969231492
+Iteration 266: Training Error = 5.009392481741848, Evaluation Error = 4.627690075607077
+differential_evolution step 267: f(x)= 4.561262969231492
+Iteration 267: Training Error = 4.975186537899562, Evaluation Error = 4.596855327877002
+differential_evolution step 268: f(x)= 4.561262969231492
+Iteration 268: Training Error = 4.810317798541535, Evaluation Error = 4.670366205269351
+differential_evolution step 269: f(x)= 4.561262969231492
+Iteration 269: Training Error = 4.647508707539664, Evaluation Error = 4.486765242033103
+differential_evolution step 270: f(x)= 4.561262969231492
+Iteration 270: Training Error = 4.624024081256552, Evaluation Error = 4.814793644796151
+differential_evolution step 271: f(x)= 4.561262969231492
+Iteration 271: Training Error = 4.8273418356380935, Evaluation Error = 4.771056457545466
+differential_evolution step 272: f(x)= 4.561262969231492
+Iteration 272: Training Error = 4.797123678971145, Evaluation Error = 4.645092923818026
+differential_evolution step 273: f(x)= 4.561262969231492
+Iteration 273: Training Error = 4.640328204737996, Evaluation Error = 4.631385280966403
+differential_evolution step 274: f(x)= 4.561262969231492
+Iteration 274: Training Error = 4.903835519786093, Evaluation Error = 4.524248822108847
+differential_evolution step 275: f(x)= 4.561262969231492
+Iteration 275: Training Error = 4.586265939786749, Evaluation Error = 4.5850322036690985
+differential_evolution step 276: f(x)= 4.561262969231492
+Iteration 276: Training Error = 4.75767640325654, Evaluation Error = 4.623563048915445
+differential_evolution step 277: f(x)= 4.561262969231492
+Iteration 277: Training Error = 4.803443063537403, Evaluation Error = 4.646041148488586
+differential_evolution step 278: f(x)= 4.561262969231492
+Iteration 278: Training Error = 4.866561217954223, Evaluation Error = 4.45095328011116
+differential_evolution step 279: f(x)= 4.561262969231492
+Iteration 279: Training Error = 4.784572893304984, Evaluation Error = 4.559820010516702
+differential_evolution step 280: f(x)= 4.561262969231492
+Iteration 280: Training Error = 4.7562550054058, Evaluation Error = 4.761711634187139
+differential_evolution step 281: f(x)= 4.561262969231492
+Iteration 281: Training Error = 4.843063960732836, Evaluation Error = 4.569399819751941
+differential_evolution step 282: f(x)= 4.547768574907291
+Iteration 282: Training Error = 4.783101462051016, Evaluation Error = 4.40593873149578
+differential_evolution step 283: f(x)= 4.547768574907291
+Iteration 283: Training Error = 5.124456481222818, Evaluation Error = 4.557795728443958
+differential_evolution step 284: f(x)= 4.547768574907291
+Iteration 284: Training Error = 4.8169804275525685, Evaluation Error = 4.851150017428813
+differential_evolution step 285: f(x)= 4.547768574907291
+Iteration 285: Training Error = 4.815722690103568, Evaluation Error = 4.872421643157006
+differential_evolution step 286: f(x)= 4.547768574907291
+Iteration 286: Training Error = 4.853929359155382, Evaluation Error = 5.000136933534115
+differential_evolution step 287: f(x)= 4.547768574907291
+Iteration 287: Training Error = 4.862056466923725, Evaluation Error = 4.514001939904968
+differential_evolution step 288: f(x)= 4.547768574907291
+Iteration 288: Training Error = 4.873751008202625, Evaluation Error = 4.739960284546481
+differential_evolution step 289: f(x)= 4.547768574907291
+Iteration 289: Training Error = 4.950609112250529, Evaluation Error = 4.684906516951587
+differential_evolution step 290: f(x)= 4.547768574907291
+Iteration 290: Training Error = 5.017549468604505, Evaluation Error = 4.686696011209408
+differential_evolution step 291: f(x)= 4.547768574907291
+Iteration 291: Training Error = 4.9282356520206, Evaluation Error = 4.775172225978508
+differential_evolution step 292: f(x)= 4.547768574907291
+Iteration 292: Training Error = 4.91577413726197, Evaluation Error = 4.653736525915134
+differential_evolution step 293: f(x)= 4.547768574907291
+Iteration 293: Training Error = 4.761704550256971, Evaluation Error = 4.660295306785835
+differential_evolution step 294: f(x)= 4.547768574907291
+Iteration 294: Training Error = 4.732720996313508, Evaluation Error = 4.647832635672724
+differential_evolution step 295: f(x)= 4.547768574907291
+Iteration 295: Training Error = 4.788061842710914, Evaluation Error = 4.648810624145348
+differential_evolution step 296: f(x)= 4.547768574907291
+Iteration 296: Training Error = 4.624678064139047, Evaluation Error = 4.930935609343926
+differential_evolution step 297: f(x)= 4.547768574907291
+Iteration 297: Training Error = 4.8070822238786715, Evaluation Error = 4.957513524538427
+differential_evolution step 298: f(x)= 4.547768574907291
+Iteration 298: Training Error = 4.693085521532592, Evaluation Error = 4.873055163082163
+differential_evolution step 299: f(x)= 4.547768574907291
+Iteration 299: Training Error = 4.813265360100461, Evaluation Error = 4.6983230474721225
+differential_evolution step 300: f(x)= 4.547768574907291
+Iteration 300: Training Error = 4.819813552322394, Evaluation Error = 4.790151952133847
+differential_evolution step 301: f(x)= 4.547768574907291
+Iteration 301: Training Error = 4.763944430073093, Evaluation Error = 4.716247867679749
+differential_evolution step 302: f(x)= 4.547768574907291
+Iteration 302: Training Error = 5.106308557041107, Evaluation Error = 4.577170584808966
+differential_evolution step 303: f(x)= 4.547768574907291
+Iteration 303: Training Error = 4.552464624233305, Evaluation Error = 4.585572414296452
+differential_evolution step 304: f(x)= 4.547768574907291
+Iteration 304: Training Error = 4.7185739109537685, Evaluation Error = 4.670003786674462
+differential_evolution step 305: f(x)= 4.49238205746685
+Iteration 305: Training Error = 4.8734764338476815, Evaluation Error = 4.542971187503168
+differential_evolution step 306: f(x)= 4.49238205746685
+Iteration 306: Training Error = 4.692470783236702, Evaluation Error = 4.628376244585999
+differential_evolution step 307: f(x)= 4.49238205746685
+Iteration 307: Training Error = 4.636027290983854, Evaluation Error = 4.550964104069633
+differential_evolution step 308: f(x)= 4.49238205746685
+Iteration 308: Training Error = 4.686808450380688, Evaluation Error = 4.677641561384244
+differential_evolution step 309: f(x)= 4.49238205746685
+Iteration 309: Training Error = 4.702814979647961, Evaluation Error = 4.6878867476281485
+differential_evolution step 310: f(x)= 4.49238205746685
+Iteration 310: Training Error = 4.639097924939394, Evaluation Error = 4.27106590458597
+differential_evolution step 311: f(x)= 4.49238205746685
+Iteration 311: Training Error = 4.521694467135687, Evaluation Error = 4.594330936961705
+differential_evolution step 312: f(x)= 4.49238205746685
+Iteration 312: Training Error = 4.4888815405844955, Evaluation Error = 4.530692370996556
+differential_evolution step 313: f(x)= 4.49238205746685
+Iteration 313: Training Error = 4.596493503233494, Evaluation Error = 4.442147243562827
+differential_evolution step 314: f(x)= 4.49238205746685
+Iteration 314: Training Error = 4.442201365835204, Evaluation Error = 4.387530994371768
+differential_evolution step 315: f(x)= 4.49238205746685
+Iteration 315: Training Error = 4.665170358358386, Evaluation Error = 4.596739765049698
+differential_evolution step 316: f(x)= 4.49238205746685
+Iteration 316: Training Error = 4.54521750969316, Evaluation Error = 4.599414031077522
+differential_evolution step 317: f(x)= 4.49238205746685
+Iteration 317: Training Error = 4.579526087023218, Evaluation Error = 4.611088026817385
+differential_evolution step 318: f(x)= 4.49238205746685
+Iteration 318: Training Error = 4.841868677392957, Evaluation Error = 4.4317191601996235
+differential_evolution step 319: f(x)= 4.49238205746685
+Iteration 319: Training Error = 4.792103972444753, Evaluation Error = 4.6354012567120275
+differential_evolution step 320: f(x)= 4.49238205746685
+Iteration 320: Training Error = 4.6142729851186886, Evaluation Error = 4.538292850529985
+differential_evolution step 321: f(x)= 4.49238205746685
+Iteration 321: Training Error = 4.735195688767462, Evaluation Error = 4.421808008760255
+differential_evolution step 322: f(x)= 4.49238205746685
+Iteration 322: Training Error = 4.739479726167787, Evaluation Error = 4.601157361732077
+differential_evolution step 323: f(x)= 4.49238205746685
+Iteration 323: Training Error = 4.686190964508832, Evaluation Error = 4.379315043520766
+differential_evolution step 324: f(x)= 4.49238205746685
+Iteration 324: Training Error = 4.714031669373972, Evaluation Error = 4.6117445960707855
+differential_evolution step 325: f(x)= 4.49238205746685
+Iteration 325: Training Error = 4.550130543472182, Evaluation Error = 4.812603686925836
+differential_evolution step 326: f(x)= 4.444134272414274
+Iteration 326: Training Error = 4.885638607868556, Evaluation Error = 4.71258349864293
+differential_evolution step 327: f(x)= 4.444134272414274
+Iteration 327: Training Error = 4.573284439128873, Evaluation Error = 5.02477519232032
+differential_evolution step 328: f(x)= 4.444134272414274
+Iteration 328: Training Error = 4.948281610066292, Evaluation Error = 5.02047584431428
+differential_evolution step 329: f(x)= 4.444134272414274
+Iteration 329: Training Error = 4.84710689099324, Evaluation Error = 4.632319035133342
+differential_evolution step 330: f(x)= 4.444134272414274
+Iteration 330: Training Error = 5.138867935916313, Evaluation Error = 4.773662678773302
+differential_evolution step 331: f(x)= 4.444134272414274
+Iteration 331: Training Error = 4.981716646669813, Evaluation Error = 4.72625715704745
+differential_evolution step 332: f(x)= 4.444134272414274
+Iteration 332: Training Error = 4.813811775234601, Evaluation Error = 4.808099736779408
+differential_evolution step 333: f(x)= 4.444134272414274
+Iteration 333: Training Error = 4.476566407791899, Evaluation Error = 4.814705451646011
+differential_evolution step 334: f(x)= 4.444134272414274
+Iteration 334: Training Error = 4.821034053407072, Evaluation Error = 4.849206792781143
+differential_evolution step 335: f(x)= 4.444134272414274
+Iteration 335: Training Error = 4.619940383141033, Evaluation Error = 4.791102926037256
+differential_evolution step 336: f(x)= 4.444134272414274
+Iteration 336: Training Error = 4.903048595985833, Evaluation Error = 4.818315530290404
+differential_evolution step 337: f(x)= 4.444134272414274
+Iteration 337: Training Error = 4.856515771847086, Evaluation Error = 5.121831769764064
+differential_evolution step 338: f(x)= 4.444134272414274
+Iteration 338: Training Error = 4.664694144020332, Evaluation Error = 4.81929568843231
+differential_evolution step 339: f(x)= 4.444134272414274
+Iteration 339: Training Error = 4.92471190108191, Evaluation Error = 4.813814227675705
+differential_evolution step 340: f(x)= 4.444134272414274
+Iteration 340: Training Error = 4.841806007212661, Evaluation Error = 4.711569182906667
+differential_evolution step 341: f(x)= 4.444134272414274
+Iteration 341: Training Error = 4.848300470196557, Evaluation Error = 4.7067837423872945
+differential_evolution step 342: f(x)= 4.444134272414274
+Iteration 342: Training Error = 4.909009397678964, Evaluation Error = 4.633922390281745
+differential_evolution step 343: f(x)= 4.444134272414274
+Iteration 343: Training Error = 4.951202736201495, Evaluation Error = 4.680673408847607
+differential_evolution step 344: f(x)= 4.444134272414274
+Iteration 344: Training Error = 4.788596505767968, Evaluation Error = 4.644861801119511
+differential_evolution step 345: f(x)= 4.444134272414274
+Iteration 345: Training Error = 4.806524856393633, Evaluation Error = 4.884865193488435
+differential_evolution step 346: f(x)= 4.444134272414274
+Iteration 346: Training Error = 4.921242854028493, Evaluation Error = 4.642594116153678
+differential_evolution step 347: f(x)= 4.444134272414274
+Iteration 347: Training Error = 5.16899891104868, Evaluation Error = 5.042500379329958
+differential_evolution step 348: f(x)= 4.444134272414274
+Iteration 348: Training Error = 4.937401541520364, Evaluation Error = 4.533911964014546
+differential_evolution step 349: f(x)= 4.444134272414274
+Iteration 349: Training Error = 4.693805515566217, Evaluation Error = 4.812746227393683
+differential_evolution step 350: f(x)= 4.444134272414274
+Iteration 350: Training Error = 4.584779025227636, Evaluation Error = 5.118282245986361
+differential_evolution step 351: f(x)= 4.444134272414274
+Iteration 351: Training Error = 4.581997335628896, Evaluation Error = 4.808541470309743
+differential_evolution step 352: f(x)= 4.444134272414274
+Iteration 352: Training Error = 4.6975852388443755, Evaluation Error = 4.757941619402606
+differential_evolution step 353: f(x)= 4.444134272414274
+Iteration 353: Training Error = 5.001255613295422, Evaluation Error = 4.970378603326823
+differential_evolution step 354: f(x)= 4.444134272414274
+Iteration 354: Training Error = 4.733766055822205, Evaluation Error = 4.7597728985873005
+differential_evolution step 355: f(x)= 4.444134272414274
+Iteration 355: Training Error = 4.786718437870819, Evaluation Error = 4.951558990348248
+differential_evolution step 356: f(x)= 4.444134272414274
+Iteration 356: Training Error = 4.718956969014759, Evaluation Error = 5.040429062708281
+differential_evolution step 357: f(x)= 4.444134272414274
+Iteration 357: Training Error = 4.661444517472068, Evaluation Error = 4.8052901225443545
+differential_evolution step 358: f(x)= 4.444134272414274
+Iteration 358: Training Error = 4.589560322973399, Evaluation Error = 4.898289758553155
+differential_evolution step 359: f(x)= 4.444134272414274
+Iteration 359: Training Error = 4.67070058271987, Evaluation Error = 4.680572805340477
+differential_evolution step 360: f(x)= 4.444134272414274
+Iteration 360: Training Error = 4.586076893641602, Evaluation Error = 4.488365845906257
+differential_evolution step 361: f(x)= 4.444134272414274
+Iteration 361: Training Error = 4.982017562582829, Evaluation Error = 4.807131198511506
+differential_evolution step 362: f(x)= 4.444134272414274
+Iteration 362: Training Error = 5.095521232727496, Evaluation Error = 4.905940564500934
+differential_evolution step 363: f(x)= 4.444134272414274
+Iteration 363: Training Error = 5.054406767807711, Evaluation Error = 4.563735372799901
+differential_evolution step 364: f(x)= 4.444134272414274
+Iteration 364: Training Error = 4.906672771487223, Evaluation Error = 4.735641442333228
+differential_evolution step 365: f(x)= 4.444134272414274
+Iteration 365: Training Error = 4.974653071013428, Evaluation Error = 4.9579594438385355
+differential_evolution step 366: f(x)= 4.444134272414274
+Iteration 366: Training Error = 5.067280864366286, Evaluation Error = 4.68579677845991
+differential_evolution step 367: f(x)= 4.444134272414274
+Iteration 367: Training Error = 4.933580741147946, Evaluation Error = 4.920534848835624
+differential_evolution step 368: f(x)= 4.444134272414274
+Iteration 368: Training Error = 4.84515309745743, Evaluation Error = 4.884555000231826
+differential_evolution step 369: f(x)= 4.444134272414274
+Iteration 369: Training Error = 5.037947944788696, Evaluation Error = 4.832903739918616
+differential_evolution step 370: f(x)= 4.444134272414274
+Iteration 370: Training Error = 4.93745407759889, Evaluation Error = 4.620613729907925
+differential_evolution step 371: f(x)= 4.444134272414274
+Iteration 371: Training Error = 4.7813708501817285, Evaluation Error = 4.833205014996133
+differential_evolution step 372: f(x)= 4.444134272414274
+Iteration 372: Training Error = 4.796465256282454, Evaluation Error = 4.746946022909398
+differential_evolution step 373: f(x)= 4.444134272414274
+Iteration 373: Training Error = 4.728227234730309, Evaluation Error = 4.6693286154805795
+differential_evolution step 374: f(x)= 4.444134272414274
+Iteration 374: Training Error = 4.773868705431607, Evaluation Error = 4.808430587438542
+differential_evolution step 375: f(x)= 4.444134272414274
+Iteration 375: Training Error = 4.756174986217024, Evaluation Error = 4.662155148957103
+differential_evolution step 376: f(x)= 4.444134272414274
+Iteration 376: Training Error = 4.818260563031091, Evaluation Error = 4.756239434326554
+differential_evolution step 377: f(x)= 4.444134272414274
+Iteration 377: Training Error = 4.601038804834317, Evaluation Error = 5.159320677150008
+differential_evolution step 378: f(x)= 4.444134272414274
+Iteration 378: Training Error = 4.672455022888761, Evaluation Error = 4.866075974589768
+differential_evolution step 379: f(x)= 4.444134272414274
+Iteration 379: Training Error = 4.573959374978358, Evaluation Error = 4.646968811662146
+differential_evolution step 380: f(x)= 4.444134272414274
+Iteration 380: Training Error = 4.754751889147919, Evaluation Error = 4.9576425527833266
+differential_evolution step 381: f(x)= 4.444134272414274
+Iteration 381: Training Error = 4.546592582008625, Evaluation Error = 5.272642458313252
+differential_evolution step 382: f(x)= 4.444134272414274
+Iteration 382: Training Error = 5.077521860039373, Evaluation Error = 4.64797754866518
+differential_evolution step 383: f(x)= 4.444134272414274
+Iteration 383: Training Error = 5.010302729221468, Evaluation Error = 4.795238274227508
+differential_evolution step 384: f(x)= 4.444134272414274
+Iteration 384: Training Error = 5.142239398886603, Evaluation Error = 4.845579641438976
+differential_evolution step 385: f(x)= 4.444134272414274
+Iteration 385: Training Error = 4.84805297985471, Evaluation Error = 4.862804993755907
+differential_evolution step 386: f(x)= 4.444134272414274
+Iteration 386: Training Error = 4.955219255373798, Evaluation Error = 4.802755933098972
+differential_evolution step 387: f(x)= 4.444134272414274
+Iteration 387: Training Error = 5.032097042113413, Evaluation Error = 4.566102928693716
+differential_evolution step 388: f(x)= 4.444134272414274
+Iteration 388: Training Error = 4.8137296555342335, Evaluation Error = 4.992894893984246
+differential_evolution step 389: f(x)= 4.444134272414274
+Iteration 389: Training Error = 4.681367160592153, Evaluation Error = 4.932395495752033
+differential_evolution step 390: f(x)= 4.444134272414274
+Iteration 390: Training Error = 4.735892070971218, Evaluation Error = 4.95121104543821
+differential_evolution step 391: f(x)= 4.444134272414274
+Iteration 391: Training Error = 4.891361526999204, Evaluation Error = 4.712736577914679
+differential_evolution step 392: f(x)= 4.444134272414274
+Iteration 392: Training Error = 4.792136767508193, Evaluation Error = 4.6905674197223775
+differential_evolution step 393: f(x)= 4.444134272414274
+Iteration 393: Training Error = 4.900071584116049, Evaluation Error = 4.776115897370873
+differential_evolution step 394: f(x)= 4.444134272414274
+Iteration 394: Training Error = 4.964184686991291, Evaluation Error = 4.540087284271905
+differential_evolution step 395: f(x)= 4.444134272414274
+Iteration 395: Training Error = 5.242337494434283, Evaluation Error = 4.688992630352342
+differential_evolution step 396: f(x)= 4.444134272414274
+Iteration 396: Training Error = 4.902790101517127, Evaluation Error = 4.757818349631499
+differential_evolution step 397: f(x)= 4.444134272414274
+Iteration 397: Training Error = 4.717076971596429, Evaluation Error = 4.898022450957361
+differential_evolution step 398: f(x)= 4.444134272414274
+Iteration 398: Training Error = 5.022777730985778, Evaluation Error = 5.0309987344138305
+differential_evolution step 399: f(x)= 4.444134272414274
+Iteration 399: Training Error = 4.600411945238622, Evaluation Error = 4.780711857264644
+differential_evolution step 400: f(x)= 4.444134272414274
+Iteration 400: Training Error = 4.9715947119460075, Evaluation Error = 4.67302264036467
+Polishing solution with 'L-BFGS-B'
+Optimal parameters found:
+sigma = 27.865464435876227
+B       = 0.0008346098786176405
+tau     = 3.0154305435028057
+nu      = 1.0136193294362625
+gain    = 0.00528797098482132
+max_rate = 336.7005261363846
+y = 102.84346314739582
+theta = 253.52563066977237
+Optimization results saved to V1_control_student_t_composite.pkl

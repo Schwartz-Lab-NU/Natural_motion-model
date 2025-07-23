@@ -1,0 +1,67 @@
+/home/yuj1135/.conda/envs/elephant/lib/python3.12/site-packages/scipy/optimize/_differentialevolution.py:486: UserWarning: differential_evolution: the 'workers' keyword has overridden updating='immediate' to updating='deferred'
+  with DifferentialEvolutionSolver(func, bounds, args=args,
+differential_evolution step 1: f(x)= 0.48134777986318933
+Iteration 1: Training Error = 0.49191432443961686, Evaluation Error = 0.47986375766634776
+differential_evolution step 2: f(x)= 0.48134777986318933
+Iteration 2: Training Error = 0.48945186148062536, Evaluation Error = 0.4809072304049785
+differential_evolution step 3: f(x)= 0.48134777986318933
+Iteration 3: Training Error = 0.4902823311160508, Evaluation Error = 0.480064164752592
+differential_evolution step 4: f(x)= 0.48134777986318933
+Iteration 4: Training Error = 0.4874966895948872, Evaluation Error = 0.48467958347947643
+differential_evolution step 5: f(x)= 0.48134777986318933
+Iteration 5: Training Error = 0.4883843234401424, Evaluation Error = 0.4835581331919405
+differential_evolution step 6: f(x)= 0.4811383995684503
+Iteration 6: Training Error = 0.4831629937737479, Evaluation Error = 0.4757001225472204
+differential_evolution step 7: f(x)= 0.4811383995684503
+Iteration 7: Training Error = 0.482056979734953, Evaluation Error = 0.47842816015617246
+differential_evolution step 8: f(x)= 0.4811383995684503
+Iteration 8: Training Error = 0.4798581897216179, Evaluation Error = 0.4765367522034244
+differential_evolution step 9: f(x)= 0.4811383995684503
+Iteration 9: Training Error = 0.48438836547415554, Evaluation Error = 0.4742352275764308
+differential_evolution step 10: f(x)= 0.4811383995684503
+Iteration 10: Training Error = 0.48405262099527036, Evaluation Error = 0.47627452160006367
+differential_evolution step 11: f(x)= 0.4811383995684503
+Iteration 11: Training Error = 0.48109988820215754, Evaluation Error = 0.4800007798687087
+differential_evolution step 12: f(x)= 0.4811383995684503
+Iteration 12: Training Error = 0.47600477436611116, Evaluation Error = 0.4789313702143314
+differential_evolution step 13: f(x)= 0.4811383995684503
+Iteration 13: Training Error = 0.4802569980829319, Evaluation Error = 0.4770406723573279
+differential_evolution step 14: f(x)= 0.4811383995684503
+Iteration 14: Training Error = 0.4860220444813195, Evaluation Error = 0.47303351083464357
+differential_evolution step 15: f(x)= 0.4811383995684503
+Iteration 15: Training Error = 0.4835312760804592, Evaluation Error = 0.4820973213113571
+differential_evolution step 16: f(x)= 0.4811383995684503
+Iteration 16: Training Error = 0.4773529657246201, Evaluation Error = 0.47803680042056557
+differential_evolution step 17: f(x)= 0.47790947180650367
+Iteration 17: Training Error = 0.4843101756418134, Evaluation Error = 0.4771326304099291
+differential_evolution step 18: f(x)= 0.47790947180650367
+Iteration 18: Training Error = 0.4777130616998018, Evaluation Error = 0.47898316996861606
+differential_evolution step 19: f(x)= 0.47790947180650367
+Iteration 19: Training Error = 0.4859595513496323, Evaluation Error = 0.4779871849424301
+differential_evolution step 20: f(x)= 0.47790947180650367
+Iteration 20: Training Error = 0.4880635332627153, Evaluation Error = 0.47845349166931894
+differential_evolution step 21: f(x)= 0.47790947180650367
+Iteration 21: Training Error = 0.4783153410093651, Evaluation Error = 0.48058003851942804
+differential_evolution step 22: f(x)= 0.4772574328376087
+Iteration 22: Training Error = 0.47980823266944717, Evaluation Error = 0.4769192474311641
+differential_evolution step 23: f(x)= 0.4772574328376087
+Iteration 23: Training Error = 0.47994945631693336, Evaluation Error = 0.4684130520514395
+differential_evolution step 24: f(x)= 0.4772574328376087
+Iteration 24: Training Error = 0.48567226740975583, Evaluation Error = 0.4729583925056408
+differential_evolution step 25: f(x)= 0.4772574328376087
+Iteration 25: Training Error = 0.4814384290837567, Evaluation Error = 0.4707670571093172
+differential_evolution step 26: f(x)= 0.4772574328376087
+Iteration 26: Training Error = 0.4826799329461001, Evaluation Error = 0.4769532616761921
+differential_evolution step 27: f(x)= 0.4772574328376087
+Iteration 27: Training Error = 0.4812027846801716, Evaluation Error = 0.4752106906430991
+differential_evolution step 28: f(x)= 0.4772574328376087
+Iteration 28: Training Error = 0.48292718755694697, Evaluation Error = 0.47680490759003874
+differential_evolution step 29: f(x)= 0.47588447296141817
+Iteration 29: Training Error = 0.47689458346531016, Evaluation Error = 0.4764302209916104
+Polishing solution with 'L-BFGS-B'
+Optimal parameters found:
+gain    = 0.003491333021374965
+max_rate = 174.96921876706517
+y = -23.654739030581368
+theta = 85.15827135305307
+Optimization results saved to V1_control_w_o_gaincontrol_VPN.pkl

@@ -1,0 +1,16 @@
+/home/yuj1135/.conda/envs/elephant/lib/python3.12/site-packages/scipy/optimize/_differentialevolution.py:486: UserWarning: differential_evolution: the 'workers' keyword has overridden updating='immediate' to updating='deferred'
+  with DifferentialEvolutionSolver(func, bounds, args=args,
+differential_evolution step 1: f(x)= 10000000000.0
+Iteration 1: Training Error = 10000000000.0, Evaluation Error = 10000000000.0
+Polishing solution with 'L-BFGS-B'
+Optimal parameters found:
+sigma = 14.99808801468609
+B       = 0.023665523164447082
+tau     = 8.916070308828623
+mix     = 1.601112224807591
+widenratio = 2.1705403478891188
+gain    = 0.00510146620772647
+max_rate = 293.9574827845361
+y = 2390.928558767164
+theta = -72.78849166098746
+Optimization results saved to V1_natural_gaussianflatten_composite.pkl

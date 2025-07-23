@@ -1,0 +1,10 @@
+/home/yuj1135/.conda/envs/elephant/lib/python3.12/site-packages/scipy/optimize/_differentialevolution.py:486: UserWarning: differential_evolution: the 'workers' keyword has overridden updating='immediate' to updating='deferred'
+  with DifferentialEvolutionSolver(func, bounds, args=args,
+differential_evolution step 1: f(x)= 10000000000.0
+Iteration 1: Training Error = 10000000000.0, Evaluation Error = 10000000000.0
+Polishing solution with 'L-BFGS-B'
+Traceback (most recent call last):
+  File "/projects/p32750/repository/Natural_motion-model/V1_control_gaussianflatten_composite.py", line 334, in <module>
+    optimal_sigma, optimal_B, optimal_tau, optimal_mix, optimal_widenratio, optimal_gain, optimal_max, optimal_y = result_de.x
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 8)
