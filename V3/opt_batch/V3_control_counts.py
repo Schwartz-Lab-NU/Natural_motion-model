@@ -205,9 +205,7 @@ def gain_control(Lout, B=0.005, tau=11.0):
         gain_controlled_Lout[t] = g_v[t] * Lout[t]
 
     return gain_controlled_Lout, g_v
-def gaussian_2d(x, y, sigma_x, sigma_y, A=0.2, x0=0, y0=0):
-    X, Y = np.meshgrid(x, y, indexing='ij')
-    return A * np.exp(-((X - x0)**2 / (2 * sigma_x**2) + (Y - y0)**2 / (2 * sigma_y**2)))
+# Duplicate gaussian_2d definition removed to avoid override.
 
 # %% load data
 

@@ -26,7 +26,7 @@ echo "Working directory: $(pwd)"
 echo "Date: $(date)"
 
 # Run the optimization
-python V3_control_VP
+python V3_control_VP.py
 
 # Check exit status
 if [ $? -eq 0 ]; then
