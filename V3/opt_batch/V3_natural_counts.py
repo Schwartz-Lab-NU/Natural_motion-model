@@ -178,7 +178,7 @@ with open(spike_indices_path, 'rb') as f:
     spike_indices_n = pickle.load(f)
 # with open('spike_indices_cV2.pkl', 'rb') as f:
 #     spike_indices_c = pickle.load(f)
-rfN = np.load('/projects/p32750/repository/Natural_motion-model/rfNc2_V3.npy')
+rfN = np.load('/projects/p32750/repository/Natural_motion-model/V3/results/rfNc2_V3.npy')
 rfN[rfN < 0.1] = 0
 spatial_filterV3 = rfN
 # model PARAM

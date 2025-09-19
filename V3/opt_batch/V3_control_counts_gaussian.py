@@ -357,7 +357,6 @@ def objectiveCounts_random(params, train=True):
                 apply_nonlinearity(LoutGCvpfit, 'sigmoid', gain=gain, max_rate=max_rate, y=y),
                 method='threshold_linear', theta=theta)
             profiler.end("nonlinearity")
-            
             if LNoutGCvpfit[0] > 0:
                 return 1e10
             profiler.start("spike_count_calculation")

@@ -216,7 +216,7 @@ with open('/projects/p32750/repository/Natural_motion-model/V3/results/spike_ind
 X_SF = 401
 Y_SF = 401
 A = 1
-rfC = np.load('/projects/p32750/repository/Natural_motion-model/rfCc2_V3.npy')
+rfC = np.load('/projects/p32750/repository/Natural_motion-model/V3/results/rfCc2_V3.npy')
 rfC[rfC < 0.1] = 0
 spatial_filterV3 = rfC
 x_SF = np.linspace(-(X_SF-1)/2, (X_SF-1)/2, X_SF)
