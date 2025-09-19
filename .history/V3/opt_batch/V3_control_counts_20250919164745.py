@@ -77,6 +77,48 @@ def block_means(matrix,n_groups, group_size):
             block_means[i, j] = block.mean()
     return block_means
 
+def spatial_filterSF(rf,A=0.2):
+    return A * rf
+
+def gaussian_2d(x, y, sigma_x, sigma_y, A=1, x0=0, y0=0):
+    X, Y = np.meshgrid(x, y, indexing='ij')
+    return A * np.exp(-((X - x0)**2 / (2 * sigma_x**2) + (Y - y0)**2 / (2 * sigma_y**2)))
+
+def gaussian_2dflatten(x, y, sigma_x, sigma_y,mix, widenratio, A=1, x0=0, y0=0):
+    A = gaussian_2d(x=x, y=y, sigma_x = sigma_x, sigma_y = sigma_y, A=A, x0=x0, y0=y0) + gaussian_2d(x=x, y=y, sigma_x = widenratio* sigma_x, sigma_y = widenratio*sigma_y, A=mix*A, x0=x0, y0=y0)
+    A = A / np.max(A)
+    return A 
+
+def difference_of_gaussians(x, y, sigma_c, sigma_s, A_c=0.4, A_s=0.2):
+    X, Y = np.meshgrid(x, y, indexing='ij')
+    center = A_c * np.exp(-(X**2 + Y**2) / (2 * sigma_c**2))
+    surround = A_s * np.exp(-(X**2 + Y**2) / (2 * sigma_s**2))
+    return center - surround
+
+def generalized_gaussian_2d(x, y, sigma_x, sigma_y, alpha, A=1.0, x0=0, y0=0):
+    """
+    2D generalized Gaussian with exponent alpha:
+    - alpha = 1: standard Gaussian
+    - 0 < alpha < 1: heavier tails (higher kurtosis)
+    - alpha > 1: lighter tails
+    """
+    X, Y = np.meshgrid(x, y, indexing='ij')
+    Q = ((X - x0)**2 / (2 * sigma_x**2) +
+         (Y - y0)**2 / (2 * sigma_y**2))
+    d = A * np.exp(- Q**alpha)
+    d = d / d[int((len(x)-1)/2),int((len(x)-1)/2+1)]
+    return d   # Normalize to max value of 1
+
+def student_t_2d(x, y, sigma_x, sigma_y, nu, A=1.0, x0=0, y0=0):
+    """
+    2D Student's-t distribution (heavy-tailed):
+    - nu: degrees of freedom. Lower nu -> heavier tails
+    - For nu=1: Cauchy (Lorentzian) form
+    """
+    X, Y = np.meshgrid(x, y, indexing='ij')
+    r2 = ((X - x0)**2 / sigma_x**2 + (Y - y0)**2 / sigma_y**2)
+    return A * (1 + r2 / nu) ** (-(nu + 1) / 2)
+
 def biphasic_temporal_filter(t, p1, p2, tau1, tau2, n):
     t = np.asarray(-t, dtype=float)
     term1 = p1 * (t / tau1)**n * np.exp(-n * (t / tau1 - 1))
@@ -163,57 +205,55 @@ def gain_control(Lout, B=0.005, tau=11.0):
         gain_controlled_Lout[t] = g_v[t] * Lout[t]
 
     return gain_controlled_Lout, g_v
-
-def gaussian_2d(x, y, sigma_x, sigma_y, A=1, x0=0, y0=0):
-    X, Y = np.meshgrid(x, y, indexing='ij')
-    return A * np.exp(-((X - x0)**2 / (2 * sigma_x**2) + (Y - y0)**2 / (2 * sigma_y**2)))
+# Duplicate gaussian_2d definition removed to avoid override.
 
 # %% load data
-# Load data
-spike_indices_path = '/projects/p32750/repository/Natural_motion-model/V3/results/spike_indices_nc2V3.pkl'
-if not os.path.exists(spike_indices_path):
-    print(f"Error: Spike indices file not found at {spike_indices_path}")
-    exit(1)
-with open(spike_indices_path, 'rb') as f:
-    spike_indices_n = pickle.load(f)
-# with open('spike_indices_cV2.pkl', 'rb') as f:
-#     spike_indices_c = pickle.load(f)
-rfN = np.load('/projects/p32750/repository/Natural_motion-model/rfNc2_V3.npy')
-rfN[rfN < 0.1] = 0
-spatial_filterV3 = rfN
+
+# with open('spike_indices_nV2.pkl', 'rb') as f:
+#     spike_indices_n = pickle.load(f)
+with open('/projects/p32750/repository/Natural_motion-model/V3/results/spike_indices_cc2V3.pkl', 'rb') as f:
+    spike_indices_c = pickle.load(f)
+X_SF = 401
+Y_SF = 401
+A = 1
+rfC = np.load('/projects/p32750/repository/Natural_motion-model/rfCc2_V3.npy')
+rfC[rfC < 0.1] = 0
+spatial_filterV3 = rfC
+x_SF = np.linspace(-(X_SF-1)/2, (X_SF-1)/2, X_SF)
+y_SF = np.linspace(-(Y_SF-1)/2, (Y_SF-1)/2, Y_SF)
+
 # model PARAM
 delay = 0.05 # s
 t_sampling = np.linspace(0,92,93)
 
 time_para = 5400 # time bin to generate spike
 time_bin = 1/time_para
-num_modeltrails = 60 #
+
 t_temporal = np.linspace(-2000/3,0, 40) 
 q = 1.0 / (100.0 * pq.ms)
 
-# Spatial filter parameters
-X_SF = 401
-Y_SF = 401
-A = 1
-
-x_SF = np.linspace(-(X_SF-1)/2, (X_SF-1)/2, X_SF)
-y_SF = np.linspace(-(Y_SF-1)/2, (Y_SF-1)/2, Y_SF)
-
-random.seed(42)
-all_indices = list(range(679))
+random.seed(42) #answer to life the universe and everything
+all_indices = list(range(682))
 random.shuffle(all_indices)
-train_indices = all_indices[:339]
+train_indices = all_indices[:340]
 n =3
-eval_indices = all_indices[339:]
+eval_indices = all_indices[340:]
 
-spike_trains_n = []
-spike_trains_nemd = []
-for trial_idx, spikes in enumerate(spike_indices_n):
-    st_n = SpikeTrain(spikes.flatten() / 10 * ms, t_stop=1550)
-    st_narray = spikes.flatten() / 10
-    spike_trains_n.append(st_n)
-    spike_trains_nemd.append(st_narray)
+# spike_trains_n = []
+# spike_trains_nemd = []
+# for trial_idx, spikes in enumerate(spike_indices_n):
+#     st_n = SpikeTrain(spikes.flatten() / 10 * ms, t_stop=15200/6)
+#     st_narray = spikes.flatten() / 10
+#     spike_trains_n.append(st_n)
+#     spike_trains_nemd.append(st_narray)
 
+spike_trains_c = []
+spike_trains_cemd = []
+for trial_idx, spikes in enumerate(spike_indices_c):
+    st_c = SpikeTrain(spikes.flatten() / 10 * ms, t_stop=1550)
+    st_carray = spikes.flatten() / 10
+    spike_trains_c.append(st_c)
+    spike_trains_cemd.append(st_carray)
 
 
 
@@ -288,7 +328,7 @@ def objectiveCounts_random(params, train=True):
         profiler.end("index_selection")
 
         profiler.start("reference_spike_trains")
-        reference_spike_trains = [spike_trains_n[i] for i in selected_indices]
+        reference_spike_trains = [spike_trains_c[i] for i in selected_indices]
         profiler.end("reference_spike_trains")
      
         profiler.start("model_computation_loop")
@@ -394,7 +434,7 @@ if __name__ == '__main__':
     freeze_support()
     profiler.start("stimuli_loading")
     # Use np.load with mmap_mode to avoid loading all data into RAM
-    with h5py.File('/projects/p32750/repository/Natural_motion-model/V3/results/stimulic2_nV3.h5', 'r') as f:
+    with h5py.File('/projects/p32750/repository/Natural_motion-model/V3/results/stimulic2_cV3.h5', 'r') as f:
         movies_f32 = f['stimuli'][:]
         movies_f32 = movies_f32.astype(np.float32, copy=False)
     n_trials, T, Y, X = movies_f32.shape
@@ -455,10 +495,10 @@ if __name__ == '__main__':
     }
 
 
-    with open("/projects/p32750/repository/Natural_motion-model/V3/results/V3_natural_counts_results.pkl", "wb") as f:
+    with open("/projects/p32750/repository/Natural_motion-model/V3/results/V3_control_counts_results.pkl", "wb") as f:
         pickle.dump(results, f)
 
-    print("Optimization results saved to V3_natural_counts_results.pkl") 
+    print("Optimization results saved to V3_control_counts_results.pkl") 
 
 
 
