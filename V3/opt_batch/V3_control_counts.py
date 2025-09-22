@@ -216,7 +216,7 @@ with open('/projects/p32750/repository/Natural_motion-model/V3/results/spike_ind
 X_SF = 401
 Y_SF = 401
 A = 1
-rfC = np.load('/projects/p32750/repository/Natural_motion-model/V3/results/rfCc2_V3.npy')
+rfC = np.load('/projects/p32750/repository/Natural_motion-model/V3/results/rfCc2_V3_training_only.npy')
 rfC[rfC < 0.1] = 0
 spatial_filterV3 = rfC
 x_SF = np.linspace(-(X_SF-1)/2, (X_SF-1)/2, X_SF)
@@ -233,11 +233,11 @@ t_temporal = np.linspace(-2000/3,0, 40)
 q = 1.0 / (100.0 * pq.ms)
 
 random.seed(42) #answer to life the universe and everything
-all_indices = list(range(682))
+all_indices = list(range(679))
 random.shuffle(all_indices)
-train_indices = all_indices[:340]
+train_indices = all_indices[:339]
 n =3
-eval_indices = all_indices[340:]
+eval_indices = all_indices[339:]
 
 # spike_trains_n = []
 # spike_trains_nemd = []
