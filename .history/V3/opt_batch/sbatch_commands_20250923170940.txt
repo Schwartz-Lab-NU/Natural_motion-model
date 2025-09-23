@@ -1,0 +1,29 @@
+# SBATCH Commands for V3 Optimization Scripts
+# Copy and paste these commands to submit jobs to the SLURM queue
+
+# Control Scripts
+sbatch V3_control_counts_withoutGC.sh
+sbatch V3_control_counts.sh
+sbatch V3_control_counts_gaussian.sh
+sbatch V3_control_counts_gaussianstep1.sh
+sbatch V3_control_VP.sh
+
+# Natural Scripts
+sbatch V3_natural_counts_withoutGC.sh
+sbatch V3_natural_counts.sh
+sbatch V3_natural_counts_gaussian.sh
+sbatch V3_natural_counts_gaussianstep1.sh
+sbatch V3_natural_VP.sh
+
+# Individual commands for easy copying:
+
+sbatch V3_control_counts_withoutGC.sh
+sbatch V3_control_counts.sh
+sbatch V3_control_counts_gaussian.sh
+sbatch V3_control_counts_gaussianstep1.sh
+sbatch V3_control_VP.sh
+sbatch V3_natural_counts_withoutGC.sh
+sbatch V3_natural_counts.sh
+sbatch V3_natural_counts_gaussian.sh
+sbatch V3_natural_counts_gaussianstep1.sh
+sbatch V3_natural_VP.sh
